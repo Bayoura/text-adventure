@@ -1,1 +1,48 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
 
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    padding: 15px;
+    text-align: center;
+    width: 900px;
+    max-width: 80%;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: hsl(350deg 100% 40%);
+    border: 2px solid hsl(350deg 100% 30%);
+    border-radius: 5px;
+    color: hsl(0 100% 100%);
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+}
+
+.btn:hover {
+    border-color: hsl(200deg 100% 70%);
+}
