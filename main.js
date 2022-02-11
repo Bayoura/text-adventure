@@ -153,7 +153,7 @@ const textNodes = [
     },
     {
         id: 8,
-        text: 'After having no luck in finding his cat, you return to the man empty-handed, He is clearly disappointed, but thanks you for trying.',
+        text: 'After having no luck in finding his cat, you return to the man empty-handed. He is clearly disappointed, but thanks you for trying.',
         options: [
             {
                 text: 'You feel sorry for him, but decide to continue your adventure.',
@@ -171,7 +171,7 @@ const textNodes = [
                 nextText: 10
             },
             {
-                text: 'It looks dangerous, maybe it\'s cursed. Better leave it there.',
+                text: 'It looks dangerous, maybe it\'s cursed. Better leave it right where it is.',
                 nextText: 10
             }
         ]
@@ -191,7 +191,7 @@ const textNodes = [
             },
             {
                 text: 'You don\'t want to take any risks, and decide to retreat to safety.',
-                text: 13
+                nextText: 13
             }
         ]
     },
@@ -232,7 +232,7 @@ const textNodes = [
     },
     {
         id: 14,
-        text: 'The monster reacts viciously to your attack, and you are barely able to defend yourself. You realise you stand no chance and manage to escape death narrowly. Frightened by this near-death experience, you decide to quit adventuring for the time being.',
+        text: 'The monster reacts viciously to your attack, and you are barely able to defend yourself. You realise you stand no chance and manage to escape death only narrowly. Frightened by this near-death experience, you decide to quit adventuring for the time being.',
         options: [
             {
                 text: 'Restart your adventure',
@@ -242,7 +242,7 @@ const textNodes = [
     },
     {
         id: 15,
-        text: 'As soon as you swallow the potion, you know you made a big mistake. The potion is full of magic and definitely not made for drinking! Quickly, you succumb to its deathly effect.',
+        text: 'As soon as you swallow the potion, you know you made a big mistake. The potion is full of magic and definitely not made for drinking! Quickly, you succumb to its lethal effect.',
         options: [
             {
                 text: 'Restart your adventure',
@@ -282,7 +282,7 @@ const textNodes = [
     },
     {
         id: 19,
-        text: 'You sprint towards the entrance, the growls of the monster still loud in your ear. You don\'t dare to ever come back to these ruins, and decide to take things a little slower in the future.',
+        text: 'You sprint towards the entrance, the growls of the monster still ringing in your ears. You don\'t dare to ever come back to these ruins, and decide to take things a little slower in the future.',
         options: [
             {
                 text: 'Restart your adventure',
@@ -336,7 +336,7 @@ const textNodes = [
     },
     {
         id: 21,
-        text: 'You successfully defend yourself against the statues! After defeating them, you venture deeper into the ruins, but only find some more old vases. Slightly disappointed, you retreat.',
+        text: 'You successfully defend yourself against the statues! Slightly disturbed after fighting such lifelike creatures, you venture deeper into the ruins, but only find some more old vases. Slightly disappointed, you retreat.',
         options: [
             {
                 text: 'Restart your adventure',
