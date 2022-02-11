@@ -56,7 +56,7 @@ const textNodes = [
             },
             {
                 text: 'You keep going.',
-                nextText: 0
+                nextText: 9
             }
         ]
     },
@@ -128,7 +128,7 @@ const textNodes = [
     },
     {
         id: 6,
-        text: 'You spend hours searching and climbing the trees in town. Sadly, you have no luck and return to the man empty-handed. He is clearly disappointed, but thanks you anyway for trying.',
+        text: 'You spend hours searching and climbing the trees in town. Sadly, you have no luck and return to the man empty-handed. He is clearly disappointed, but thanks you for trying.',
         options: [
             {
                 text: 'You feel sorry for him, but decide to continue your adventure.',
@@ -153,7 +153,7 @@ const textNodes = [
     },
     {
         id: 8,
-        text: 'After having no luck in finding his cat, you return to the man empty-handed, He is clearly disappointed, but thanks you anyway for trying.',
+        text: 'After having no luck in finding his cat, you return to the man empty-handed, He is clearly disappointed, but thanks you for trying.',
         options: [
             {
                 text: 'You feel sorry for him, but decide to continue your adventure.',
