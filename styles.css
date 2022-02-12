@@ -48,3 +48,22 @@ body {
 .btn:hover {
     border-color: hsl(200deg 100% 70%);
 }
+
+@media (max-width: 768px) {
+    .container {
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+    .btn-grid {
+        gap: 5px;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:576px) {
+    .btn-grid {
+        grid-template-columns: repeat(1, auto);
+    }
+}
