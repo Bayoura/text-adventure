@@ -26,7 +26,6 @@ function showTextNode(textNodeIndex) {
 
         }
     })
-
 }
 
 function showOption(option) {
