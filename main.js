@@ -39,9 +39,7 @@ function selectOption(option) {
         return startGame();
     }
     state = Object.assign(state, option.setState);
-    console.log(state);
     showTextNode(nextTextNodeId);
-
 }
 
 const textNodes = [
