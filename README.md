@@ -1,4 +1,4 @@
-# text-adventure
+# A simple text adventure story game
 
 ![Screenshot](text-adventure_screenshot.png)
 
