@@ -202,7 +202,7 @@ const textNodes = [
                 nextText: 14
             },
             {
-                text: 'You are panicking, and decide to drink the potion you found earlier.',
+                text: 'You are panicking, and decide to drink the potion you got earlier.',
                 requiredState: (currentState) => currentState.potion,
                 nextText: 15
             },
@@ -259,7 +259,7 @@ const textNodes = [
     },
     {
         id: 17,
-        text: 'It doesn\'t take long for you to realise that you have not the fainted idea how to use a lasso. The monster realises that too, and regret is the last thing you feel before you are turned to stone.',
+        text: 'It doesn\'t take long for you to realise that you have not the faintest idea how to use a lasso. The monster realises that too, and regret is the last thing you feel before you are turned to stone.',
         options: [
             {
                 text: 'Restart your adventure',
